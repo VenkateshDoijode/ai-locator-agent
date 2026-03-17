@@ -1,0 +1,162 @@
+[
+  {
+    "element_name": "About Link",
+    "element_type": "link",
+    "description": "Link to the About page",
+    "css_locator": "a.MV3Tnb[href*='about.google']",
+    "xpath_locator": "//a[contains(@href, 'about.google')]",
+    "playwright_locator": "a[href*='about.google']"
+  },
+  {
+    "element_name": "Store Link",
+    "element_type": "link",
+    "description": "Link to the Google Store",
+    "css_locator": "a.MV3Tnb[href*='store.google.com']",
+    "xpath_locator": "//a[contains(@href, 'store.google.com')]",
+    "playwright_locator": "a[href*='store.google.com']"
+  },
+  {
+    "element_name": "Gmail Link",
+    "element_type": "link",
+    "description": "Link to Gmail",
+    "css_locator": "a[aria-label='Gmail ']",
+    "xpath_locator": "//a[@aria-label='Gmail ']",
+    "playwright_locator": "a[aria-label='Gmail ']"
+  },
+  {
+    "element_name": "Images Link",
+    "element_type": "link",
+    "description": "Link to Google Images",
+    "css_locator": "a[aria-label='Search for Images ']",
+    "xpath_locator": "//a[@aria-label='Search for Images ']",
+    "playwright_locator": "a[aria-label='Search for Images ']"
+  },
+  {
+    "element_name": "Google Apps Button",
+    "element_type": "button",
+    "description": "Button to open Google apps menu",
+    "css_locator": "a[aria-label='Google apps'][role='button']",
+    "xpath_locator": "//a[@aria-label='Google apps' and @role='button']",
+    "playwright_locator": "a[aria-label='Google apps'][role='button']"
+  },
+  {
+    "element_name": "Sign In Link",
+    "element_type": "link",
+    "description": "Link to sign in page",
+    "css_locator": "a[aria-label='Sign in']",
+    "xpath_locator": "//a[@aria-label='Sign in']",
+    "playwright_locator": "a[aria-label='Sign in']"
+  },
+  {
+    "element_name": "Close Button",
+    "element_type": "button",
+    "description": "Button to close a popup or dialog",
+    "css_locator": "button#spchx[aria-label='close']",
+    "xpath_locator": "//button[@id='spchx' and @aria-label='close']",
+    "playwright_locator": "button#spchx"
+  },
+  {
+    "element_name": "Search Textarea",
+    "element_type": "textarea",
+    "description": "Main search input area",
+    "css_locator": "textarea#gLFyf#APjFqb[name='q'][aria-label='Search']",
+    "xpath_locator": "//textarea[@id='APjFqb' and @name='q' and @aria-label='Search']",
+    "playwright_locator": "textarea#APjFqb[name='q']"
+  },
+  {
+    "element_name": "Google Search Button",
+    "element_type": "input",
+    "description": "Button to submit Google Search",
+    "css_locator": "input.gNO89b[name='btnK'][aria-label='Google Search'][type='submit']",
+    "xpath_locator": "//input[@name='btnK' and @aria-label='Google Search' and @type='submit']",
+    "playwright_locator": "input[name='btnK'][aria-label='Google Search']"
+  },
+  {
+    "element_name": "I'm Feeling Lucky Button",
+    "element_type": "input",
+    "description": "Button to submit I'm Feeling Lucky search",
+    "css_locator": "input.RNmpXc[name='btnI'][aria-label=\"I'm Feeling Lucky\"][type='submit']",
+    "xpath_locator": "//input[@name='btnI' and @aria-label=\"I'm Feeling Lucky\" and @type='submit']",
+    "playwright_locator": "input[name='btnI'][aria-label=\"I'm Feeling Lucky\"]"
+  },
+  {
+    "element_name": "Advertising Link",
+    "element_type": "link",
+    "description": "Link to Advertising page",
+    "css_locator": "a.pHiOh[href*='ads']",
+    "xpath_locator": "//a[contains(@href, 'ads')]",
+    "playwright_locator": "a.pHiOh[href*='ads']"
+  },
+  {
+    "element_name": "Business Link",
+    "element_type": "link",
+    "description": "Link to Business page",
+    "css_locator": "a.pHiOh[href*='services']",
+    "xpath_locator": "//a[contains(@href, 'services')]",
+    "playwright_locator": "a.pHiOh[href*='services']"
+  },
+  {
+    "element_name": "How Search Works Link",
+    "element_type": "link",
+    "description": "Link to How Search Works page",
+    "css_locator": "a.pHiOh[href*='howsearchworks']",
+    "xpath_locator": "//a[contains(@href, 'howsearchworks')]",
+    "playwright_locator": "a.pHiOh[href*='howsearchworks']"
+  },
+  {
+    "element_name": "Privacy Link",
+    "element_type": "link",
+    "description": "Link to Privacy policy",
+    "css_locator": "a.pHiOh[href*='privacy']",
+    "xpath_locator": "//a[contains(@href, 'privacy')]",
+    "playwright_locator": "a.pHiOh[href*='privacy']"
+  },
+  {
+    "element_name": "Terms Link",
+    "element_type": "link",
+    "description": "Link to Terms of Service",
+    "css_locator": "a.pHiOh[href*='terms']",
+    "xpath_locator": "//a[contains(@href, 'terms')]",
+    "playwright_locator": "a.pHiOh[href*='terms']"
+  },
+  {
+    "element_name": "Search Settings Link",
+    "element_type": "link",
+    "description": "Link to Search settings",
+    "css_locator": "a[role='menuitem'][href*='preferences']",
+    "xpath_locator": "//a[@role='menuitem' and contains(@href, 'preferences')]",
+    "playwright_locator": "a[role='menuitem'][href*='preferences']"
+  },
+  {
+    "element_name": "Advanced Search Link",
+    "element_type": "link",
+    "description": "Link to Advanced search",
+    "css_locator": "a[role='menuitem'][href*='advanced_search']",
+    "xpath_locator": "//a[@role='menuitem' and contains(@href, 'advanced_search')]",
+    "playwright_locator": "a[role='menuitem'][href*='advanced_search']"
+  },
+  {
+    "element_name": "Your Data in Search Link",
+    "element_type": "link",
+    "description": "Link to Your data in Search page",
+    "css_locator": "a[role='menuitem'][href*='privacyadvisor']",
+    "xpath_locator": "//a[@role='menuitem' and contains(@href, 'privacyadvisor')]",
+    "playwright_locator": "a[role='menuitem'][href*='privacyadvisor']"
+  },
+  {
+    "element_name": "Search History Link",
+    "element_type": "link",
+    "description": "Link to Search history",
+    "css_locator": "a[role='menuitem'][href*='optout']",
+    "xpath_locator": "//a[@role='menuitem' and contains(@href, 'optout')]",
+    "playwright_locator": "a[role='menuitem'][href*='optout']"
+  },
+  {
+    "element_name": "Search Help Link",
+    "element_type": "link",
+    "description": "Link to Search help page",
+    "css_locator": "a[role='menuitem'][href*='ws_results_help']",
+    "xpath_locator": "//a[@role='menuitem' and contains(@href, 'ws_results_help')]",
+    "playwright_locator": "a[role='menuitem'][href*='ws_results_help']"
+  }
+]
