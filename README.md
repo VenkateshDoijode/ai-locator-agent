@@ -1,4 +1,4 @@
-# 🔍 LocatorMadeEasyByAB
+# 🔍 AI WebElement Locator Agent
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
@@ -33,7 +33,7 @@ The core issues with this manual approach are:
 
 ### The Solution
 
-**LocatorMadeEasyByAB** automates the entire locator discovery process using a multi-agent AI pipeline. Instead of a human manually inspecting the DOM, the system:
+**ai-locator-agent** automates the entire locator discovery process using a multi-agent AI pipeline. Instead of a human manually inspecting the DOM, the system:
 
 - Uses a **real browser** (not a static HTML fetcher) so JavaScript-rendered content is fully loaded
 - Combines **two sources of context** — the raw HTML snippet AND a full-page visual screenshot — so the AI understands both the structure and the appearance of each element
