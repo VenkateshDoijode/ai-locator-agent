@@ -45,7 +45,7 @@ The core issues with this manual approach are:
 
 ### Before vs After
 
-**Without LocatorMadeEasyByAB** — a typical engineer's workflow:
+**Without ai-locator-agent** — a typical engineer's workflow:
 
 ```
 1. Open browser DevTools          ← manual
@@ -56,7 +56,7 @@ The core issues with this manual approach are:
 6. Go back to step 1               ← repeat for every UI change
 ```
 
-**With LocatorMadeEasyByAB:**
+**With ai-locator-agent:**
 
 ```
 1. Run: python main.py
@@ -128,7 +128,7 @@ Being transparent about what this tool is and isn't:
 
 ### What Makes It Different
 
-Unlike browser extensions or simple CSS extractors, LocatorMadeEasyByAB reasons about locators the way an experienced QA engineer would — weighing selector type, uniqueness, and visual context together. It doesn't just find elements; it finds the *right* locators and tells you how much to trust each one.
+Unlike browser extensions or simple CSS extractors, ai-locator-agent reasons about locators the way an experienced QA engineer would — weighing selector type, uniqueness, and visual context together. It doesn't just find elements; it finds the *right* locators and tells you how much to trust each one.
 
 > **This project is also a practical demonstration of agentic AI architecture** — showing how a complex multi-step task can be decomposed into focused, independently testable agents connected through a shared state pipeline.
 
@@ -136,7 +136,7 @@ Unlike browser extensions or simple CSS extractors, LocatorMadeEasyByAB reasons 
 
 ## 📌 What It Does
 
-Writing stable UI locators for test automation is tedious and brittle. **LocatorMadeEasyByAB** eliminates that by combining browser automation, DOM parsing, and GPT-4 vision reasoning into a single pipeline that:
+Writing stable UI locators for test automation is tedious and brittle. **ai-locator-agent** eliminates that by combining browser automation, DOM parsing, and GPT-4 vision reasoning into a single pipeline that:
 
 1. Loads any webpage using a real headless Chromium browser
 2. Scrolls to trigger lazy-loaded content
@@ -251,8 +251,8 @@ Each locator is scored across two dimensions and combined into a final **reliabi
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/LocatorMadeEasyByAB.git
-cd LocatorMadeEasyByAB
+git clone https://github.com/your-username/ai-locator-agent.git
+cd ai-locator-agent
 
 # 2. Install Python dependencies
 pip install -r requirements.txt
@@ -304,7 +304,7 @@ images_link → a[aria-label='Search for Images '] (score=0.85)
 ## 📁 Project Structure
 
 ```
-LocatorMadeEasyByAB/
+ai-locator-agent/
 │
 ├── main.py                     # Pipeline orchestrator & entry point
 ├── state_schema.py             # Shared state schema factory
